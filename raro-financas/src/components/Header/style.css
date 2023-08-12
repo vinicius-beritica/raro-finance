@@ -68,6 +68,7 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: 130%; /* 20.8px */
+  text-align: right;
 }
 
 .email-profile {

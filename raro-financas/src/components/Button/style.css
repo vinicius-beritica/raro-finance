@@ -12,6 +12,20 @@
   background-color: #1e3a8a;
   box-shadow: 5px 15px 30px -5px #dce0ec;
   width: 100%;
+}
+
+.icon-plus {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #dbeafe;
+}
+
+.txt-trans {
   color: #f1f5f9;
   font-family: Inter;
   font-size: 24px;
