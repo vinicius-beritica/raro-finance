@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Mulish:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+.btn-transation {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+  border-radius: 11px;
+  border: 1px solid #cbd5e1;
+  background-color: #1e3a8a;
+  box-shadow: 5px 15px 30px -5px #dce0ec;
+  width: 100%;
+  color: #f1f5f9;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

@@ -1,0 +1,27 @@
+.top-header {
+  margin: 0%;
+  display: flex;
+  padding: 20px 120px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e3a8a;
+  width: 100%;
+  box-sizing: border-box;
+
+  /* object-fit: cover; */
+}
+
+.profile {
+  align-items: center;
+}
+
+.logo {
+  color: #eff6ff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 41.6px */
+}
