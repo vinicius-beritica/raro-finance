@@ -1,6 +1,5 @@
 .list-cards {
   display: flex;
-  padding: 0px 120px;
   align-items: center;
   gap: 32px;
   align-self: stretch;
@@ -8,7 +7,7 @@
 
 .div-list {
   display: flex;
-  padding: 0px 120px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   flex: 1 0 0;
@@ -23,7 +22,22 @@
   align-items: center;
   padding-top: 32px;
   gap: 32px;
-  width: 1440px;
+  width: 1200px;
   height: 100vh;
   box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  height: 120px;
+  width: 276px;
+  padding: 14px 30px 13px 27px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 11px;
+  border: 1px solid #cbd5e1;
+  background-color: #f8fafc;
+  box-shadow: 5px 15px 30px -5px #dce0ec;
 }
