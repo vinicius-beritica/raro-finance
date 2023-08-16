@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Venda de celular antigo",
+    "date": "01/01/2023",
+    "category": "Renda extra",
+    "value": 1853,
+    "type": "+"
+  },
+  {
+    "name": "Compra de celular antigo",
+    "date": "01/01/2023",
+    "category": "Compra",
+    "value": 1853,
+    "type": "-"
+  },
+  {
+    "name": "Venda de celular antigo",
+    "date": "01/01/2023",
+    "category": "Renda extra",
+    "value": 183.2,
+    "type": "+"
+  },
+  {
+    "name": "Venda de celular antigo",
+    "date": "01/01/2023",
+    "category": "Renda extra",
+    "value": 185,
+    "type": "+"
+  },
+  {
+    "name": "Compra de celular antigo",
+    "date": "01/01/2023",
+    "category": "Compra",
+    "value": 2056,
+    "type": "-"
+  },
+  {
+    "name": "Venda de celular antigo",
+    "date": "01/01/2023",
+    "category": "Renda extra",
+    "value": 306,
+    "type": "+"
+  },
+  {
+    "name": "Venda de celular antigo",
+    "date": "01/01/2023",
+    "category": "Renda extra",
+    "value": 1580,
+    "type": "+"
+  }
+]

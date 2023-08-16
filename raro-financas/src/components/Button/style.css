@@ -6,12 +6,12 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
-  flex: 1 0 0;
+  flex: 1 -1 0;
   border-radius: 11px;
   border: 1px solid #cbd5e1;
   background-color: #1e3a8a;
   box-shadow: 5px 15px 30px -5px #dce0ec;
-  width: 100%;
+  width: 276px;
 }
 
 .icon-plus {
@@ -27,7 +27,7 @@
 
 .txt-trans {
   color: #f1f5f9;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;

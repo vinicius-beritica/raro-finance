@@ -2,31 +2,37 @@
   bottom: 0px;
   margin-top: 0px;
   width: 100%;
-  display: flex;
-  padding: 20px 120px;
-  justify-content: space-between;
+  padding: 20px;
   align-items: center;
   align-self: stretch;
   background: #cbd5e1;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
+.ft-content {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
 .nm-aluno {
   color: var(--tailwind-colors-slate-800, #1e293b);
-  font-family: Mulish;
+  font-family: 'Mulish', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 130%; /* 20.8px */
+  line-height: 130%;
   color: #1e293b;
 }
 
 .txt-footer {
   color: var(--tailwind-colors-slate-800, #1e293b);
-  font-family: Mulish;
+  font-family: 'Mulish', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 130%; /* 18.2px */
+  line-height: 130%;
   color: #1e293b;
 }
