@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# Raro Finanças
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Raro Finanças é um sistema de administração de finanças que lista o histórico de lançamentos de entrada, saída e o saldo em sua tela inicial. Ele permite adicionar novos registros através de um botão "Transação" que abre um modal para inserir uma nova transação, podendo ser de entrada ou saída.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi criado com React usando o boilerplate `create vite@latest` com a linguagem `typescript` e inclui bibliotecas como `react-modal`, `react-input-mask` e `react-number-format`.
 
-## Expanding the ESLint configuration
+## Estrutura
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Na pasta `src`, foi criada a pasta `components` com os seguintes componentes:
 
-- Configure the top-level `parserOptions` property like this:
+- Button
+- Card
+- Footer
+- Header
+- Input
+- Item
+- List
+- Main
+- Modal
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Jornada durante a resolução da atividade
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Durante o desenvolvimento do projeto, enfrentei vários desafios. Alguns dos principais desafios incluíram a criação de um Modal e o uso do Hook useState para atualizar as informações do componente filho para o componente pai e atualização desses dados nos demais componentes.
+
+## Como rodar o projeto
+
+Para rodar o projeto, siga os seguintes passos:
+
+1. Clone o repositório para sua máquina local.
+2. Navegue até a pasta do projeto e execute `npm install` para instalar as dependências.
+3. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
+4. Abra seu navegador e acesse `http://localhost:3000` para ver o projeto em execução.
